@@ -61,6 +61,8 @@ int main(int argc, char **argv)
 	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
 	glHint(GL_LINE_SMOOTH_HINT,GL_NICEST);
 	glHint(GL_POLYGON_SMOOTH_HINT,GL_NICEST);
+	glEnable(GL_CULL_FACE);
+	glCullFace(GL_BACK);
 
 	// application initialization
 	controls.push_back(new Control());
