@@ -47,7 +47,8 @@ void mouse(int button, int state, int x, int y)
 		{
 			y = glutGet(GLUT_WINDOW_HEIGHT)-1-y;
 			currentPosition = vec2(x,y);
-			controls[beingDragged]->drop();			
+			controls[beingDragged]->drop();
+			beingDragged = 0;
 		} // end if
 	} // end if
 } // end function mouse

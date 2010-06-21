@@ -211,6 +211,10 @@
 			Name="Library"
 			>
 			<File
+				RelativePath="..\..\Unsorted\algorithms.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\Unsorted\Color.h"
 				>
 			</File>

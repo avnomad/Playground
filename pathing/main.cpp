@@ -13,6 +13,10 @@
 #include <vector>
 using std::vector;
 
+#include <string>
+#include <sstream>
+#include <iomanip>
+
 #include <algorithm>
 
 #include <Space-Time/Vector2D.h>
@@ -22,6 +26,7 @@ typedef unsigned int uint;
 #include <Color/glColor.h>
 using RGBA::Color;
 #include <Color/namings/single precision colors.h>
+#include <algorithms.h>
 
 
 
@@ -73,14 +78,18 @@ int main(int argc, char **argv)
 	controls.push_back(boxes.back());
 	boxes.push_back(new Box(vec2(200,500),vec2(270,620),khaki));
 	controls.push_back(boxes.back());
-	boxes.push_back(new Box(vec2(320,150),vec2(440,170),brown));
+	boxes.push_back(new Box(vec2(320,150),vec2(440,158),brown));
 	controls.push_back(boxes.back());
 	boxes.push_back(new Box(vec2(590,320),vec2(630,400),violet));
 	controls.push_back(boxes.back());
 
-	handles.push_back(new Handle(vec2(100,500),red));
+	handles.push_back(new Handle(vec2(100,450),red));
 	controls.push_back(handles.back());
-	handles.push_back(new Handle(vec2(500,100),lime));
+	handles.push_back(new Handle(vec2(400,100),lime));
+	controls.push_back(handles.back());
+	handles.push_back(new Handle(vec2(500,200),gold));
+	controls.push_back(handles.back());
+	handles.push_back(new Handle(vec2(550,200),ivory));
 	controls.push_back(handles.back());
 
 	arrows.push_back(new Arrow(vec2(50,550),vec2(0,15),azure));
