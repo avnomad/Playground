@@ -10,22 +10,19 @@
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Header Files\controls">
-      <UniqueIdentifier>{926833a4-286c-43a1-8bd7-fbf96d265476}</UniqueIdentifier>
+      <UniqueIdentifier>{9fa112a4-d3f9-44e0-8b44-b1c78f510668}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Library">
-      <UniqueIdentifier>{27f82413-bf10-4c99-9375-8f94634d878b}</UniqueIdentifier>
+      <UniqueIdentifier>{7e509b0a-cc08-427d-a0bf-df9284e09df0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Color\namings\single precision colors.cpp">
-      <Filter>Library</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -47,19 +44,19 @@
     <ClInclude Include="handle.h">
       <Filter>Header Files\controls</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Color\namings\single precision colors.h">
-      <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Color\glColor.h">
+    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\algorithms.h">
       <Filter>Library</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Color.h">
       <Filter>Library</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\algorithms.h">
+    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Space-Time\Vector2D.h">
       <Filter>Library</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Space-Time\Vector2D.h">
+    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Color\glColor.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Visual Studio 2008\Projects\Unsorted\Color\namings\single precision colors.h">
       <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>
