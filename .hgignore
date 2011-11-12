@@ -1,0 +1,8 @@
+syntax: regexp
+Debug/*
+ipch/*
+Release/*
+syntax: glob
+pathing.opensdf
+pathing.sdf
+pathing.suo
