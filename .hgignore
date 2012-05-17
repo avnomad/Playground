@@ -3,6 +3,6 @@ Debug/*
 ipch/*
 Release/*
 syntax: glob
-pathing.opensdf
-pathing.sdf
-pathing.suo
+Playground.opensdf
+Playground.sdf
+Playground.suo
